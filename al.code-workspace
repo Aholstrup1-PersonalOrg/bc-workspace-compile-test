@@ -1,11 +1,22 @@
 {
-  "folders": [
-    {
-      "path": "hello-world"
-    },
-    {
-      "path": ".AL-Go"
+    "folders": [
+        {
+            "path": "hello-world"
+        },
+        {
+            "path": ".AL-Go"
+        }
+    ],
+    "settings": {
+        "al.codeAnalyzers": [
+            "${CodeCop}",
+            "${UICop}",
+            "${analyzerfolder}ALCops.ApplicationCop.dll",
+            "${analyzerfolder}ALCops.DocumentationCop.dll",
+            "${analyzerfolder}ALCops.FormattingCop.dll",
+            "${analyzerfolder}ALCops.LinterCop.dll",
+            "${analyzerfolder}ALCops.PlatformCop.dll",
+            "${analyzerFolder}ALCops.Common.dll"
+        ]
     }
-  ],
-  "settings": {}
 }
