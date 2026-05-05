@@ -4,7 +4,10 @@
   "appFolders": ["hello-world"],
   "testFolders": [],
   "bcptTestFolders": [],
-   "customCodeCops": [
+  "workspaceCompilation": {
+    "enabled": true
+  },
+  "customCodeCops": [
     ".alcops/ALCops.ApplicationCop.dll",
     ".alcops/ALCops.DocumentationCop.dll",
     ".alcops/ALCops.FormattingCop.dll",
